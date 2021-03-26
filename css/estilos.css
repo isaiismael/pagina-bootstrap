@@ -1,0 +1,49 @@
+.select {
+  background: none;
+  border: none;
+  outline: none;
+}
+.palote {
+  font-size: 26px;
+}
+#header {
+  background: rgb(88, 151, 36) !important;
+}
+header a,
+select {
+  font-size: 14px;
+}
+
+#dropdown-menu-li a:hover {
+  background: green !important;
+}
+#carouselExampleCaptions img {
+  height: 80vh !important;
+  overflow: hidden !important;
+}
+.img__card {
+  position: relative;
+  overflow: hidden;
+}
+.img__mas {
+  width: 94%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.767);
+  position: absolute;
+  right: -50%;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.img__card:hover > .img__mas {
+  right: 10px;
+  opacity: 1;
+}
+
+.gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgb(42, 134, 14) 75%,
+    rgba(255, 255, 255, 1) 75%
+  );
+}
